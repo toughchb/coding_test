@@ -1,4 +1,4 @@
-package kakaohairshop;
+package hairshop;
 
 import java.util.ArrayList;
 import java.util.List;

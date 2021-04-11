@@ -1,4 +1,4 @@
-package kakaocommerce;
+package commerce;
 
 import java.util.Arrays;
 

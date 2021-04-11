@@ -1,4 +1,4 @@
-package backjoon.array.max;
+package bj.array.max;
 
 import java.util.Scanner;
 

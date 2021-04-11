@@ -1,8 +1,4 @@
-package kakaocommerce;
-
-import java.util.HashSet;
-import java.util.Set;
-import java.util.Stack;
+package commerce;
 
 public class Test3 {
     public static void main(String[] args) {
@@ -13,14 +9,14 @@ public class Test3 {
         int[] passenger = new int[]{1,1,1,1,1,1};
         int[][] train = new int[][]{{1,2},{1,3},{1,4},{3,5},{3,6}};
 
-        t3.solution(n,passenger,train);
+        //t3.solution(n,passenger,train);
 
     }
-    public int[] solution(int n, int[] passenger, int[][] train) {
+    /*public int[] solution(int n, int[] passenger, int[][] train) {
         int[] answer = {};
 
         int[][] mase = new int[passenger.length][passenger.length];
-        for (int i = 0; i < passenger.length - 1 ; i++) {
+        for (int i = 0; i < passenger.length - 1; i++) {
             for (int j = 0; j < passenger.length - 1; j++) {
                 if (i == train[i][0])
                     mase[i][j] = passenger[i];
@@ -34,7 +30,7 @@ public class Test3 {
             }
             System.out.println();
         }
-        for (int i = 0; i < passenger.length-1; i++) {
+        for (int i = 0; i < passenger.length - 1; i++) {
             System.out.println(train[i][0] + " " + train[i][1]);
         }
         for (int i = 0; i < train.length; i++) {
@@ -53,11 +49,11 @@ public class Test3 {
         // 0을 시작노드로 설정
         stack.push(curNode);
 
-        while(!stack.isEmpty()) {
+        while (!stack.isEmpty()) {
             curNode = (int) stack.pop();
 
             // 방문한 노드이며 skip
-            if(visitedSet.contains(curNode) ) {
+            if (visitedSet.contains(curNode)) {
                 continue;
             }
 
@@ -68,8 +64,8 @@ public class Test3 {
             System.out.print(curNode + " ");
 
             // 현재노드와 인접한 노드를 Queue에 저장함.
-            for (int i = n-1; i >= 0; i--) {
-             if(train[curNode][i] == 1) {
+            for (int i = n - 1; i >= 0; i--) {
+                if (train[curNode][i] == 1) {
                     stack.push(i);
                 }
 
@@ -78,8 +74,9 @@ public class Test3 {
 //                    stack.push(i);
 //                }
 //            }
-        }
+            }
 
-        return answer;
-    }
+            return answer;
+        }
+    }*/
 }

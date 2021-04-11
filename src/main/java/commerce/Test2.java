@@ -1,4 +1,4 @@
-package kakaocommerce;
+package commerce;
 
 public class Test2 {
     public static void main(String[] args) {

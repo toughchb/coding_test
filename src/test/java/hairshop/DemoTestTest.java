@@ -1,4 +1,4 @@
-package kakaohairshop;
+package hairshop;
 
 //import org.junit.jupiter.api.Test;
 //

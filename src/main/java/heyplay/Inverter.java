@@ -1,4 +1,4 @@
-package yanolja;
+package heyplay;
 
 public class Inverter {
 

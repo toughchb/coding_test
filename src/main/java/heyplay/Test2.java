@@ -1,6 +1,6 @@
-package yanolja;
+package heyplay;
 
-public class Test4 {
+public class Test2 {
     public static void main(String[] args) {
 
     }

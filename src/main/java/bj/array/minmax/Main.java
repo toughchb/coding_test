@@ -1,4 +1,4 @@
-package backjoon.array.minmax;
+package bj.array.minmax;
 
 import java.io.BufferedReader;
 import java.io.IOException;

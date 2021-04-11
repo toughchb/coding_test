@@ -1,4 +1,4 @@
-package kakaohairshop;
+package hairshop;
 
 import java.util.HashMap;
 import java.util.Map;
